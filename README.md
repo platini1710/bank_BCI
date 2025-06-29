@@ -67,6 +67,4 @@
 			 
 			 
 			 
-			 DIAGRAMA DE SECUENCIA y de componete dentro de LA CARPETA diagramas
-			 
-			 documentacion Swagger dentro de carpeta Swagger
+	
