@@ -1,10 +1,14 @@
+ requisitos tener instalado:
+	-gradle-8.14.2
+	-java 1.8
+ 
  1.- Para bajar el proyecto, copie el siguiente comando en la linea de comando:
  
-      git clone https://github.com/platini1710/bci.git
+      git clone https://github.com/platini1710/bank_BCI
 	  
 2.-	Para probar los test unitario y de integracion debe colocar el siguiente comando
 
-      gradlew check run
+      gradle check run
 	  
 	  los reporte html  estan en la carpeta 
 	  
@@ -16,7 +20,7 @@
 	 
 3.-	Para Levanar   proyecto el :
 	  
-      gradlew run               ==> ojo, el proyecto se levantara en un tomcat emebedido en el puerto 8081
+      gradle run               ==> ojo, el proyecto se levantara en un tomcat emebedido en el puerto 8081
 	   
 	   
 4.-	para probar con datos en el Postman
