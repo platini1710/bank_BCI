@@ -49,32 +49,30 @@ public class ControllerConsulta {
 	@ApiOperation(value = "Find todos los Usuarios", notes = "Return clase Respuesta " + "resultado ")
 	@RequestMapping(method = RequestMethod.GET, value = "/allUsuarios")
 	@ResponseBody
-	public ResponseEntity<List<RespuestaDTO>> getAllUsuarios() {
-		logger.info("Consultando todos los usuarios...");
-		String str = ZDT_FORMATTER.format(ZonedDateTime.now());
-		List<RespuestaDTO> listAllUsuarios = new ArrayList<>();
+	public ResponseEntity<List<RespuestaDTO>>  getAllUsuarios() {
+		logger.info("todo los usuarios");
+		 str = ZDT_FORMATTER.format(ZonedDateTime.now());
+		 List<RespuestaDTO> listAllUsuarios = new ArrayList<>();
 
 		try {
-			// Llamada al servicio para obtener todos los usuarios
 			listAllUsuarios = consultaUsuarioService.findAllUsuario();
 
-			// Si la lista está vacía, puedes devolver un mensaje o un estado específico
-			if (listAllUsuarios.isEmpty()) {
-				logger.warn("No se encontraron usuarios.");
-				return new ResponseEntity<>(listAllUsuarios, HttpStatus.NO_CONTENT); // 204: No Content
-			}
+
+			
 
 		} catch (Exception e) {
-			// Manejo adecuado de la excepción con un mensaje detallado
-			RespuestaDTO respuestaDTO = new RespuestaDTO();
-			respuestaDTO.setMsg("Se ha producido un error al consultar los usuarios.");
-			logger.error("Error al consultar los usuarios: " + e.getMessage(), e);
-
-			// Devolver respuesta con estado 500 (Internal Server Error)
-			return new ResponseEntity<>(List.of(respuestaDTO), HttpStatus.INTERNAL_SERVER_ERROR);
+			RespuestaDTO respuestaDTO=new RespuestaDTO();
+			respuestaDTO.setMsg("se ha producido un error ");
+			listAllUsuarios.add(respuestaDTO);
+			logger.error(e.getMessage(), e);
+			return new ResponseEntity<List<RespuestaDTO>>(listAllUsuarios, HttpStatus.INTERNAL_SERVER_ERROR); // XXX
+		
 		}
-		// Si se obtienen usuarios, devolverlos con estado 200 (OK)
-		return new ResponseEntity<>(listAllUsuarios, HttpStatus.OK);
+		Optional<List<RespuestaDTO>> list=Optional.of(listAllUsuarios);
+		if (listAllUsuarios==null)
+			return new ResponseEntity<List<RespuestaDTO>>(listAllUsuarios, HttpStatus.NOT_FOUND);
+		else
+		return new ResponseEntity<List<RespuestaDTO>>(listAllUsuarios, HttpStatus.OK); // XXX
 	}
 
 

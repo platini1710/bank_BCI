@@ -23,10 +23,10 @@ public class RespuestaDTO {
 
 	private String msg;
 	private String uuid;
-	private String name;
+	@Getter @Setter private String name;
 	private String password;
 	private String email;
-	private String created;
+	@Getter @Setter private String created;
 	private ErrorResp errorResp;
 	private String lastLogin;
 	private String token;
