@@ -10,6 +10,8 @@ plugins {
 }
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
+    options.compilerArgs << '-Xlint:unchecked'
+    options.deprecation = true
 }
 group 'com.bci.tareas'
 version '1.0-SNAPSHOT'
@@ -48,17 +50,14 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-test'
     implementation "io.springfox:springfox-swagger2:${springfoxVersion}"
 	implementation "io.springfox:springfox-swagger-ui:${springfoxUiVersion}"
-	 compileOnly 'org.projectlombok:lombok:1.18.20'
+	compileOnly 'org.projectlombok:lombok:1.18.20'
     annotationProcessor 'org.projectlombok:lombok:1.18.20'
 
-// https://mvnrepository.com/artifact/org.projectlombok/lombok
-implementation("org.projectlombok:lombok:1.18.20")
 	implementation 'io.jsonwebtoken:jjwt:0.9.1'
 	testImplementation("org.mockito:mockito-core")
 	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
     runtimeOnly 'com.h2database:h2'
-implementation 'mysql:mysql-connector-java:8.0.25'
 }
 
 

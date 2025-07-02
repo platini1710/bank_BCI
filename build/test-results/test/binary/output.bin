@@ -1,60 +1,60 @@
 
-k14:02:35.466 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =12345678
+k15:54:18.521 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =12345678
 
-_14:02:35.471 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : 12345678
+_15:54:18.526 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : 12345678
 
-¨14:02:35.471 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-k14:02:35.473 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =abcdefgh
-_14:02:35.473 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : abcdefgh
-¨14:02:35.473 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-k14:02:35.476 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =ABCDEFGH
-_14:02:35.476 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : ABCDEFGH
-¨14:02:35.476 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-l14:02:35.479 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =abc123$$$
-`14:02:35.479 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : abc123$$$
-¨14:02:35.479 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-l14:02:35.481 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =ABC123$$$
-`14:02:35.481 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : ABC123$$$
-¨14:02:35.481 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-l14:02:35.482 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =ABC$$$$$$
-`14:02:35.482 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : ABC$$$$$$
-¨14:02:35.482 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-q14:02:35.485 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =java REGEX 123
-e14:02:35.485 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : java REGEX 123
-¨14:02:35.485 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-s14:02:35.487 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =java REGEX 123 %
-g14:02:35.487 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : java REGEX 123 %
-¨14:02:35.487 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-k14:02:35.489 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =________
-_14:02:35.489 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : ________
-¨14:02:35.489 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-k14:02:35.492 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =--------
-_14:02:35.492 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : --------
-¨14:02:35.492 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-d14:02:35.493 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas = 
-X14:02:35.493 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password :  
-¨14:02:35.494 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-i14:02:35.495 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =Asds23
-]14:02:35.495 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : Asds23
-¨14:02:35.496 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-k14:02:35.500 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password  validas =A23bbbccc@
-a14:02:35.500 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : A23bbbccc@
-¨14:02:35.501 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-i14:02:35.502 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password  validas =Hello@12
-_14:02:35.502 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : Hello@12
-¨14:02:35.502 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-l14:02:35.504 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password  validas =A!@#2&()aa1
-b14:02:35.504 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : A!@#2&()aa1
-¨14:02:35.504 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-k14:02:35.506 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password  validas =A[{2@}]:;a
-a14:02:35.506 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : A[{2@}]:;a
-¨14:02:35.506 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-j14:02:35.507 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password  validas =A7$^+=2a#
-`14:02:35.508 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : A7$^+=2a#
-¨14:02:35.508 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-l14:02:35.509 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password  validas =A89$abcdeab
-b14:02:35.509 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : A89$abcdeab
-¨14:02:35.509 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-i14:02:35.512 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password  validas =12fAa$wa
-_14:02:35.512 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : 12fAa$wa
-¨14:02:35.512 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+¨15:54:18.526 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+k15:54:18.528 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =abcdefgh
+_15:54:18.528 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : abcdefgh
+¨15:54:18.528 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+k15:54:18.530 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =ABCDEFGH
+_15:54:18.531 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : ABCDEFGH
+¨15:54:18.531 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+l15:54:18.533 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =abc123$$$
+`15:54:18.533 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : abc123$$$
+¨15:54:18.533 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+l15:54:18.534 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =ABC123$$$
+`15:54:18.535 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : ABC123$$$
+¨15:54:18.535 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+l15:54:18.537 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =ABC$$$$$$
+`15:54:18.537 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : ABC$$$$$$
+¨15:54:18.537 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+q15:54:18.538 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =java REGEX 123
+e15:54:18.538 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : java REGEX 123
+¨15:54:18.538 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+s15:54:18.540 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =java REGEX 123 %
+g15:54:18.540 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : java REGEX 123 %
+¨15:54:18.540 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+k15:54:18.541 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =________
+_15:54:18.541 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : ________
+¨15:54:18.541 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+k15:54:18.544 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =--------
+_15:54:18.544 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : --------
+¨15:54:18.544 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+d15:54:18.545 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas = 
+X15:54:18.545 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password :  
+¨15:54:18.545 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+i15:54:18.546 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password no validas =Asds23
+]15:54:18.546 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : Asds23
+¨15:54:18.546 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+k15:54:18.551 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password  validas =A23bbbccc@
+a15:54:18.551 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : A23bbbccc@
+¨15:54:18.552 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+i15:54:18.553 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password  validas =Hello@12
+_15:54:18.553 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : Hello@12
+¨15:54:18.553 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+l15:54:18.555 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password  validas =A!@#2&()aa1
+b15:54:18.555 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : A!@#2&()aa1
+¨15:54:18.555 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+k15:54:18.559 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password  validas =A[{2@}]:;a
+a15:54:18.560 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : A[{2@}]:;a
+¨15:54:18.560 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+j15:54:18.562 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password  validas =A7$^+=2a#
+`15:54:18.562 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : A7$^+=2a#
+¨15:54:18.562 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+l15:54:18.563 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password  validas =A89$abcdeab
+b15:54:18.564 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : A89$abcdeab
+¨15:54:18.564 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+i15:54:18.566 [Test worker] INFO com.bci.tareas.test.PasswordValidatorTest - password  validas =12fAa$wa
+_15:54:18.566 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : 12fAa$wa
+¨15:54:18.566 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$

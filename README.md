@@ -45,7 +45,7 @@
 	
 
       - consultar por el registro  ingresado
-			url   :  http://localhost:8081/consult/usuario/login/1-8
+			url   :  http://localhost:8081/consulta/usuarios/login/1-8
 			Metodo:  Get	
 			el 1-8 es el rut que gurdamos anteriormente  que forma parte de la url
 		       En el  pestaña Header y agregar la key Authorization y el valor del token es el  que se devuelve al crear  un registro 
@@ -56,7 +56,7 @@
 		
 		
 	  - consultar por todos los registros  ingresados
-	  	    url   :  http://localhost:8081/consult/usuario/allUsuarios
+	  	    url   :  http://localhost:8081/consulta/usuarios/allUsuarios
 		    Metodo:  Get	
 			En el  pestaña Header y agregar la key Authorization y el valor del token es el  que se devuelve al crear  un registro 
 	

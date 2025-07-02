@@ -54,12 +54,12 @@ public class JWTAuthorizationFilter extends OncePerRequestFilter {
 			response.setStatus(HttpServletResponse.SC_FORBIDDEN);
 			
 	            response.setHeader("Content-Type", "application/json");  
-		       response.getWriter().write("{ \"mensaje\": \"Error, token incorrecto, debe ingresar el valor del token correcto que aparece en la pestaña Headers con el key Authorization\" }");
+		       response.getWriter().write("{ \"mensaje\": \"Error, token incorrecto, debe ingresar el valor del token correcto que aparece en la pestaï¿½a Headers con el key Authorization\" }");
 		//	((HttpServletResponse) response).sendError(HttpServletResponse.SC_FORBIDDEN, "mensaje:debe ingresar el token correcto que aparece en el Head Authorization");
 
 			return;
 		}
-	}	
+	}
 
 	private Claims validateToken(HttpServletRequest request) {
 		String jwtToken = request.getHeader(HEADER).replace(PREFIX, "");

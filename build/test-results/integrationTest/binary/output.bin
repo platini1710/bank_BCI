@@ -1,118 +1,118 @@
-]14:02:37.650 [Test worker] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+]15:54:20.363 [Test worker] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
 	c.b.t.c.ControllerConsulta:
-:	{GET [/consulta/usuarios/allUsuarios]}: getAllUsuarios()
-A	{GET [/consulta/usuarios/login/{id}]}: getUsuariosById(String)
-ÿ14:02:37.705 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 2 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
-€14:02:37.909 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-æ14:02:37.937 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-Ä14:02:37.953 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
-v14:02:37.954 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
-É14:02:37.956 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
-{14:02:37.956 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected FixedThemeResolver
-π14:02:37.956 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5b022357
-∞14:02:37.956 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6f8e0cee
-Í14:02:37.956 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:02:37.956 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
-ì14:02:37.996 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - GET "/consulta/usuarios/allUsuarios", parameters={}
-¿14:02:37.999 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.bci.tareas.controllers.ControllerConsulta#getAllUsuarios()
-c14:02:38.009 [Test worker] INFO com.bci.tareas.controllers.ControllerConsulta - todo los usuarios
-œ14:02:38.116 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-Ú14:02:38.116 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[RespuestaDTO(msg=null, uuid=null, name=augusto Espinoza, password=null, email=null, created=12-08-1 (truncated)...]
-p14:02:38.165 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Completed 200 OK
-f14:02:38.213 [Test worker] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
-]14:02:38.230 [Test worker] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+@	{GET [/consulta/usuarios/login/{id}]}: getUsuariosById(String)
+;	{GET [/consulta/usuarios/allUsuarios]}: getAllUsuarios()
+ÿ15:54:20.413 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 2 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+€15:54:20.596 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+æ15:54:20.625 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+Ä15:54:20.640 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+v15:54:20.641 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+É15:54:20.643 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+{15:54:20.643 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected FixedThemeResolver
+π15:54:20.643 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2787de58
+∞15:54:20.643 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@659a2455
+Í15:54:20.644 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+15:54:20.644 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 3 ms
+ì15:54:20.681 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - GET "/consulta/usuarios/allUsuarios", parameters={}
+¿15:54:20.684 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.bci.tareas.controllers.ControllerConsulta#getAllUsuarios()
+c15:54:20.693 [Test worker] INFO com.bci.tareas.controllers.ControllerConsulta - todo los usuarios
+œ15:54:20.796 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+Ú15:54:20.796 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[RespuestaDTO(msg=null, uuid=null, name=augusto Espinoza, password=null, email=null, created=12-08-1 (truncated)...]
+p15:54:20.844 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Completed 200 OK
+f15:54:20.890 [Test worker] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+]15:54:20.904 [Test worker] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
 	c.b.t.c.ControllerConsulta:
-:	{GET [/consulta/usuarios/allUsuarios]}: getAllUsuarios()
-A	{GET [/consulta/usuarios/login/{id}]}: getUsuariosById(String)
-ÿ14:02:38.230 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 2 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
-€14:02:38.235 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-æ14:02:38.237 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-Ä14:02:38.237 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
-v14:02:38.237 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
-É14:02:38.237 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
-{14:02:38.237 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected FixedThemeResolver
-∏14:02:38.237 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@f1a45f8
-∞14:02:38.237 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5edf2821
-Í14:02:38.238 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:02:38.238 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
-c14:02:38.238 [Test worker] INFO com.bci.tareas.controllers.ControllerConsulta - todo los usuarios
-]14:02:38.252 [Test worker] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+@	{GET [/consulta/usuarios/login/{id}]}: getUsuariosById(String)
+;	{GET [/consulta/usuarios/allUsuarios]}: getAllUsuarios()
+ÿ15:54:20.905 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 2 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+€15:54:20.909 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+æ15:54:20.910 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+Ä15:54:20.910 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+v15:54:20.912 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+É15:54:20.912 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+{15:54:20.912 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected FixedThemeResolver
+π15:54:20.912 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@604b1e1d
+∞15:54:20.912 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@62566842
+Í15:54:20.912 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+15:54:20.912 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+c15:54:20.913 [Test worker] INFO com.bci.tareas.controllers.ControllerConsulta - todo los usuarios
+]15:54:20.925 [Test worker] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
  	c.b.t.c.ControllerRegistation:
 [	{POST [/registro/usuario/sign-up], produces [application/json]}: saveUsuario(UsuarioDTO)
-ÿ14:02:38.255 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 1 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
-€14:02:38.259 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-æ14:02:38.260 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-Ä14:02:38.260 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
-v14:02:38.260 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
-É14:02:38.261 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
-{14:02:38.261 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected FixedThemeResolver
-∏14:02:38.261 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@de77232
-∞14:02:38.261 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@62628e78
-Í14:02:38.261 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:02:38.261 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
-b14:02:38.263 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - grabar tareas
-~14:02:38.264 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - uuid 736f4668-a216-3c68-9dac-a830ac7bf80f
-`14:02:38.264 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - In prodnull
-a14:02:38.266 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : A23bbbccc@
-®14:02:38.266 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-]14:02:38.271 [Test worker] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+ÿ15:54:20.926 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 1 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+€15:54:20.930 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+æ15:54:20.931 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+Ä15:54:20.933 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+v15:54:20.933 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+É15:54:20.933 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+{15:54:20.933 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected FixedThemeResolver
+π15:54:20.933 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6a0cbc6f
+∞15:54:20.933 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@67110f71
+Í15:54:20.933 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+15:54:20.933 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+b15:54:20.936 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - grabar tareas
+~15:54:20.936 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - uuid 736f4668-a216-3c68-9dac-a830ac7bf80f
+`15:54:20.936 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - In prodnull
+a15:54:20.938 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : A23bbbccc@
+®15:54:20.938 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+]15:54:20.943 [Test worker] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
  	c.b.t.c.ControllerRegistation:
 [	{POST [/registro/usuario/sign-up], produces [application/json]}: saveUsuario(UsuarioDTO)
-ÿ14:02:38.271 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 1 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
-€14:02:38.275 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-æ14:02:38.277 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-Ä14:02:38.277 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
-v14:02:38.277 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
-É14:02:38.277 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
-{14:02:38.277 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected FixedThemeResolver
-π14:02:38.277 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3f4cd155
-∞14:02:38.277 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@563a89b5
-Í14:02:38.277 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:02:38.277 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
-è14:02:38.315 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - POST "/registro/usuario/sign-up", parameters={}
- 14:02:38.316 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.bci.tareas.controllers.ControllerRegistation#saveUsuario(UsuarioDTO)
-é14:02:38.365 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json" to [UsuarioDTO(id=98c6f2c2-287f-3c73-8ea3-d40ae7ec3ff2, name=augusto Espinoza, password=A23bbbccc@, emai (truncated)...]
-b14:02:38.385 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - grabar tareas
-~14:02:38.386 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - uuid 736f4668-a216-3c68-9dac-a830ac7bf80f
-`14:02:38.386 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - In prodnull
-a14:02:38.386 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : A23bbbccc@
-®14:02:38.386 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
-ª14:02:38.387 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
-Ú14:02:38.388 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [RespuestaDTO(msg=null, uuid=null, name=augusto Espinoza, password=null, email=null, created=12-08-19 (truncated)...]
-u14:02:38.390 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Completed 201 CREATED
-]14:02:38.395 [Test worker] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+ÿ15:54:20.943 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 1 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+€15:54:20.947 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+æ15:54:20.949 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+Ä15:54:20.949 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+v15:54:20.949 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+É15:54:20.949 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+{15:54:20.949 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected FixedThemeResolver
+π15:54:20.949 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3533df16
+Ø15:54:20.949 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@15d0849
+Í15:54:20.949 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+15:54:20.949 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+è15:54:20.978 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - POST "/registro/usuario/sign-up", parameters={}
+ 15:54:20.978 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.bci.tareas.controllers.ControllerRegistation#saveUsuario(UsuarioDTO)
+é15:54:21.018 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json" to [UsuarioDTO(id=98c6f2c2-287f-3c73-8ea3-d40ae7ec3ff2, name=augusto Espinoza, password=A23bbbccc@, emai (truncated)...]
+b15:54:21.031 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - grabar tareas
+~15:54:21.031 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - uuid 736f4668-a216-3c68-9dac-a830ac7bf80f
+`15:54:21.031 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - In prodnull
+a15:54:21.031 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - password : A23bbbccc@
+®15:54:21.031 [Test worker] INFO com.bci.tareas.helper.PasswordValidator - PatronPassword : ^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()?[{}]:;',?/*~$^+=<>]).{8,20}$
+ª15:54:21.033 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+Ú15:54:21.034 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [RespuestaDTO(msg=null, uuid=null, name=augusto Espinoza, password=null, email=null, created=12-08-19 (truncated)...]
+u15:54:21.034 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Completed 201 CREATED
+]15:54:21.038 [Test worker] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
  	c.b.t.c.ControllerRegistation:
 [	{POST [/registro/usuario/sign-up], produces [application/json]}: saveUsuario(UsuarioDTO)
-ÿ14:02:38.395 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 1 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
-€14:02:38.401 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-æ14:02:38.403 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-Ä14:02:38.403 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
-v14:02:38.403 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
-É14:02:38.404 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
-{14:02:38.404 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected FixedThemeResolver
-∏14:02:38.404 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@20011bf
-∞14:02:38.404 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@51d9b06c
-Í14:02:38.404 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:02:38.404 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
-b14:02:38.404 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - grabar tareas
-~14:02:38.406 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - uuid 736f4668-a216-3c68-9dac-a830ac7bf80f
-`14:02:38.406 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - In prodnull
-e14:02:38.406 [Test worker] DEBUG com.bci.tareas.controllers.ControllerRegistation - nombre  es null
-]14:02:38.412 [Test worker] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+ÿ15:54:21.038 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 1 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+€15:54:21.042 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+æ15:54:21.044 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+Ä15:54:21.044 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+v15:54:21.044 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+É15:54:21.044 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+{15:54:21.044 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected FixedThemeResolver
+π15:54:21.044 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3c46dcbe
+∞15:54:21.045 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@68577ba8
+Í15:54:21.045 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+15:54:21.045 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+b15:54:21.045 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - grabar tareas
+~15:54:21.045 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - uuid 736f4668-a216-3c68-9dac-a830ac7bf80f
+`15:54:21.046 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - In prodnull
+e15:54:21.046 [Test worker] DEBUG com.bci.tareas.controllers.ControllerRegistation - nombre  es null
+]15:54:21.051 [Test worker] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
  	c.b.t.c.ControllerRegistation:
 [	{POST [/registro/usuario/sign-up], produces [application/json]}: saveUsuario(UsuarioDTO)
-ÿ14:02:38.412 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 1 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
-€14:02:38.417 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-æ14:02:38.420 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-Ä14:02:38.420 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
-v14:02:38.420 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
-É14:02:38.421 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
-{14:02:38.421 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected FixedThemeResolver
-π14:02:38.421 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3f985a86
-∞14:02:38.421 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@57a2ed35
-Í14:02:38.421 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-14:02:38.421 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
-b14:02:38.422 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - grabar tareas
-~14:02:38.422 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - uuid 736f4668-a216-3c68-9dac-a830ac7bf80f
-`14:02:38.422 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - In prodnull
-d14:02:38.422 [Test worker] DEBUG com.bci.tareas.controllers.ControllerRegistation - email invalido
+ÿ15:54:21.052 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 1 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+€15:54:21.055 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+æ15:54:21.057 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+Ä15:54:21.057 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+v15:54:21.057 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+É15:54:21.057 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+{15:54:21.057 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected FixedThemeResolver
+∏15:54:21.057 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@c6b2dd9
+∞15:54:21.057 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@73437222
+Í15:54:21.057 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+15:54:21.057 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+b15:54:21.057 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - grabar tareas
+~15:54:21.057 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - uuid 736f4668-a216-3c68-9dac-a830ac7bf80f
+`15:54:21.057 [Test worker] INFO com.bci.tareas.controllers.ControllerRegistation - In prodnull
+d15:54:21.057 [Test worker] DEBUG com.bci.tareas.controllers.ControllerRegistation - email invalido
